@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>3 Player Dice Game</h1>
+        
+        <div class="player-inputs">
+            <input type="text" id="player1Name" placeholder="Player 01 Name">
+            <input type="text" id="player2Name" placeholder="Player 02 Name">
+            <input type="text" id="player3Name" placeholder="Player 03 Name">
+        </div>
+        
+        <div class="dice">
+            <p id="player1Label">Player 01</p>
+            <img class="img1" src="./images/dice1.png">
+        </div>
+       
+        <div class="dice">
+            <p id="player2Label">Player 02</p>
+            <img class="img2" src="./images/dice1.png"> 
+        </div>
+         
+        <div class="dice">
+            <p id="player3Label">Player 03</p>
+            <img class="img3" src="./images/dice1.png"> 
+        </div>
+
+        <div class="refreshbtn">
+            <button id="rollDiceBtn">Roll the Dice</button>
+        </div>
+        
+        <div class="result">
+            <h2 id="winner"></h2>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <br>
+    <br>
+    <footer>
+        <p>Sumant Bhange | TNS 2025</p>
+    </footer>
+</body>
+</html>

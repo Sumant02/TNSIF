@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.player-inputs input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dice {
+    display: inline-block;
+    margin: 20px;
+}
+
+.refreshbtn {
+    margin-top: 20px;
+}
+
+#rollDiceBtn {
+    width: fit-content;
+    height: 45px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
